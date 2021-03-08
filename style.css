@@ -1,0 +1,54 @@
+body {
+    font-family: arial;
+}
+
+strong {
+    color: #a00;
+}
+
+#pi-digits {
+    overflow-wrap: break-word;
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.input_box {
+    display: flex;
+    align-items: center;
+}
+
+.loader {
+    margin-left: 20px;
+    display: none;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    border: 2px solid grey;
+}
+
+.loading {
+    width: 40px;
+    height: 18px;
+    background: blue;
+    animation: load 1s linear 0s infinite alternate;
+}
+
+.time_spent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@keyframes load {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(260px);
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formula">
+        <img src="formula.png" alt="">
+    </div>
+    <p><strong>Предупреждение:</strong> На вывод больше чем 1000 цифр может потребоваться больше времени.</p>
+    <div class="input_box">
+        <label for="num-digits">Количество цифр</label>
+        <input type="number" min="1" max="30000" id="num-digits" value="10">
+        <div class="loader">
+            <div class="loading"></div>
+        </div>
+    </div>
+    <div>
+        PI:
+    </div>
+    <div id="pi-digits"></div>
+    <div class="time_spent">
+        
+    </div>
+    <footer>
+        <h3>Ресурсы</h3>
+        <ul>
+            <li>Ресурс для алгоритма вычисления числа Пи: <a target="_empty"
+                    href="https://rosettacode.org/wiki/Pi/">https://rosettacode.org/wiki/Pi</a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
